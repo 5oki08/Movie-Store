@@ -1,0 +1,91 @@
+.grid-container {
+	display: grid;
+	grid-template-areas:
+	'header header header header header'
+	'menu menu menu menu menu'
+	'article article article article article'
+	'basement basement basement basement basement'
+	'footer footer footer footer footer'
+	;
+}
+
+
+#grid-item1 {
+	grid-area: header;
+	padding: 20px;
+}
+#grid-item2 {
+	grid-area: menu;
+	background-color: #1496F7;
+	padding: 20px;
+}
+#grid-item3 {
+	grid-area: article;
+	padding: 20px;
+}
+#grid-item4 {
+	grid-area: basement;
+	padding: 50px;
+}
+
+
+button {
+	width: 12%;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+
+td {
+	padding: 30px;
+}
+.editbtn {
+	background-color:blue;
+	width: 40%;
+	border: none;
+	border-radius: 3px;
+}
+.deletebtn {
+	background-color:red;
+	width: 53%;
+	border: none;
+	border-radius: 3px;
+}
+#tablerow1  {
+	border-bottom: 2px solid black;
+}
+#tablerow2 {
+	border-bottom: 2px solid #cecece;
+}
+#tablerow3 {
+	border-bottom: 2px solid #cecece;
+}
+
+
+#backhome {
+	width: 16%;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+
+#fileinput {
+	padding: 3px;
+}
+
+#submitmovie {
+	background-color: blue;
+	width: 100%;
+	border-radius: 10px;
+}
+#Reset {
+	background-color: red;
+	width: 100%;
+	border-radius: 10px;
+}
